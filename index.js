@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ status: "Ok" });
+  res.json({ status: "Ok 2.0" });
 });
 
 app.listen(3000, () => {
